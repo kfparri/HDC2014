@@ -1,0 +1,45 @@
+<html ng-app="KickStart">
+	<head>
+		<title>Angular Kick-Start</title>
+		<style>
+			ul.menu {
+			    list-style-type: none;
+			    margin: 0;
+			    padding: 0;
+			}
+
+			ul.menu li {
+			    display: inline;
+			}
+
+			ul.menu li a {
+			    display: inline-block;
+			    background-color: #CCC;
+			    color: #000;
+			    padding: .4rem;
+			    text-decoration: none;
+			}
+			
+			ul.menu li a:hover,
+			ul.menu li a.active {
+			    background-color: #000;
+			    color: #FFF;
+			}
+		</style>
+	</head>
+	<body ng-cloak>
+		<ul class="menu">
+			<li><a href="#/" ng-class="{'active': title==='Home'}">Home</a></li>
+			<li><a href="#/about" ng-class="{'active': title==='About Us'}">About Us</a></li>
+			<li><a href="#/movies" ng-class="{'active': title==='Movie List'}">Movies</a></li>
+		</ul>
+		<h2>{{ title }}</h2>
+		<div ng-view></div>
+	</body>
+	<script src="vendor/angular/angular.min.js"></script>
+	<script src="vendor/angular-route/angular-route.min.js"></script>
+	<script src="app.js"></script>
+	<script src="controllers.js"></script>
+	<script src="services.js"></script>
+	<script src="directives.js"></script>
+</html>
