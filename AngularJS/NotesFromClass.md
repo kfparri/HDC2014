@@ -1,8 +1,12 @@
+# AngularJS Kickstart #
+
+----------
+
 **What the class is:** very introductory, it assumes no knowledge of angularJS, no javascript background expected, can get you "Up and running"
 
 **What this class insn't:** Not advanced at all.
 
-8:44 AM 9/3/2014 - GulpJS, he bought a domain: democode.us
+GulpJS is used in this class.  He bought a domain: http://democode.us for use for this class
 
 `npm -v` - show the current version of NodePackageManger(npm)
  
