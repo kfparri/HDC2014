@@ -1,0 +1,16 @@
+{
+  "name": "AngularKickStart",
+  "version": "0.0.0",
+  "description": "Class test",
+  "main": "app/app.js",
+  "authors": [
+    "Kyle Parrish"
+  ],
+  "license": "MIT",
+  "homepage": "app/index.html",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.2.23",
+    "angular-route": "~1.2.23"
+  }
+}

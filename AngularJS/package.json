@@ -1,0 +1,15 @@
+{
+  "name": "AngularKickStart",
+  "version": "1.0.0",
+  "description": "Class Files",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Parrish",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-connect": "^2.0.6"
+  }
+}

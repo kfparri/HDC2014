@@ -1,0 +1,31 @@
+<html ng-app="KickStart">
+	<head>
+		<title>Angular Kick-Start</title>
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body ng-cloak>
+		<div id="header">
+	<h1>Cloudy Water Sports</h1>
+</div>
+<div id="menu">
+	<ul>
+		<li><a href="#/">Home</a></li>
+		<li><a href="#/news">News</a></li>
+		<li><a href="#/blog">Blog</a></li>
+		<li><a href="#/gallery">Gallery</a></li>
+		<li><a href="#/about">About CWS</a></li>
+		<li><a href="#/contact">Contact</a></li>
+	</ul>
+</div>
+<div id="content">
+	<div ng-view></div>
+<div id="footer">
+	<p>Copyright &copy; 2006 YOUR SITE NAME.</p>
+	<p>Design by <a href="http://360guide.info">360guide.info</a></p>
+</div>
+	</body>
+	<script src="vendor/angular/angular.min.js"></script>
+	<script src="vendor/angular-route/angular-route.min.js"></script>
+	<script src="app.js"></script>
+	<script src="controllers.js"></script>
+</html>
